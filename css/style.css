@@ -78,20 +78,20 @@ form label {
   text-align:right;
   padding:2px;
 }
-#container {
-  width:960px;
-  margin:10px auto;
-  background:yellow;
-}
-
-
 
 /* ==|== primary styles =====================================================
    Author:
    ========================================================================== */
 
-
-
+#container {
+    width: 1900px;
+    margin: 0 auto;
+    background: url("../imgs/ozziesFull.jpg") no-repeat;
+    height: 1150px;
+}
+header{
+    display: none;
+}
 
 
 
