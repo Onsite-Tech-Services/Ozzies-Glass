@@ -83,16 +83,77 @@ form label {
    Author:
    ========================================================================== */
 
-#container {
-    width: 1900px;
+body {
+    width: 100%;
     margin: 0 auto;
-    background: url("../imgs/ozziesFull.jpg") no-repeat;
+    background: url("../imgs/ozziesFull.jpg") no-repeat 50% 0;
+}
+#container{
+    width: 1200px;
     height: 1150px;
+    margin: 0 auto;
+    position: relative;
 }
 header{
-    display: none;
+    height: 400px;
+    position: relative;
 }
-
+header #phone{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 22px;
+    color: #fff;
+}
+nav{
+    position: absolute;
+    left: 600px;
+    bottom: 0;
+    width: 600px;
+    height: 100px;
+    border: 1px dotted white;
+}
+nav ul{
+    margin: 0 50px;
+}
+nav li{
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+    border: 2px solid #fff;
+    margin: 21px 10px;
+    border-radius: 70px / 30px;
+    background-image: -webkit-radial-gradient(center 10px, ellipse contain, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.5) 45%, black 50%, black 100%); /* New WebKit syntax */
+    background-color: #000;
+}
+nav li.active{
+    box-shadow: 5px 5px 15px #178F8E, 5px -5px 15px #178f8e, -5px 5px 15px #178f8e, -5px -5px 15px #178f8e;
+}
+nav li a{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    line-height: 60px;
+    display: block;
+}
+#main{
+    margin-left: 600px;
+    width: 540px;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    padding: 0 30px;
+    color: #fff;
+}
+#main a{
+    color: #fff;
+}
+footer{
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 
 

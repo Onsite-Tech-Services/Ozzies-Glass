@@ -24,14 +24,41 @@ require_once 'includes/config.inc.php';
 <div id="noJs">
     You must have JavaScript installed.
 </div>
-<div id="container">
-<?php require_once 'includes/header.inc.php'; ?>
+<div id="container" class="home">
 
-<div id="main" role="main">
-This is the main div.   
-</div>
+    <?php require_once 'includes/header.inc.php'; ?>
+
+    <div id="main" role="main">
+        <h2>Thank you for visiting OzziesGlass.com</h2>
+        <div id="lineTop"></div>
+        <p>
+            Ozzie's Glass is focused on producing only the highest quality in blown glass. Established in 1997,
+            Ozzie's Glass is leading the way and raising the bar in the art of glass. Our promise is to keep our
+            standards as high as your expectations. Products do not leave our studio until all pieces have been
+            overseen by our quality department.
+        </p>
+
+        <p>
+            With the knowledge and years of experience you can only expect to get the quality of glass that you deserve.
+            Whether you are a retailer, or a consumer looking for that quality piece(s). Look no further, Ozzie's Glass
+            is where quality meets affordability.
+        </p>
+
+        <p>
+            Look through our product line by clicking the product button above. If you are a retailer, you can also request
+            a wholesale price list by <a id="wholesaleRequest" href="contact.php">clicking here</a> and filling out the request form.
+        </p>
+
+        <div id="lineBottom"></div>
+        <h3>Creativity is our passion, quality is our standard.</h3>
+
+
+    </div>
 
 <?php
+
+    require_once 'includes/footer.inc.php';
+
 $admin = false;
 $ui = false;
 require_once('includes/scripts.inc.php');
