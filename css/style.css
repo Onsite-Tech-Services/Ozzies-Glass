@@ -248,6 +248,8 @@ textarea {
     vertical-align: top;
     -webkit-resize: vertical;
     -moz-resize: vertical;
+    -webkit-resize: vertical;
+    -moz-resize: vertical;
     resize: vertical;
 }
 
@@ -347,6 +349,12 @@ nav li {
     border: 2px solid #fff;
     margin: 21px 10px;
 
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
     -webkit-border-radius: 70px / 30px;
     -moz-border-radius: 70px / 30px;
     border-radius: 70px / 30px;
@@ -357,6 +365,12 @@ nav li {
     background-image: -ms-radial-gradient(center 15px, ellipse contain, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 45%, black 42%, black 100%);
     background-image: radial-gradient(center 15px, ellipse contain, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 45%, black 42%, black 100%); /* New WebKit syntax */
     background-color: #000;
+}
+
+nav li:hover {
+    -webkit-box-shadow: 0 0 15px #178f8e;
+    -moz-box-shadow: 0 0 15px #178f8e;
+    box-shadow: 0 0 15px #178f8e;
 }
 
 nav li.active {
