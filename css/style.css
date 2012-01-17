@@ -394,6 +394,7 @@ nav li a {
     font-size: 15px;
     text-align: center;
     padding: 0 25px;
+    position: relative;
 }
 #lineTop, #lineBottom{
     background: url("../imgs/line_sprite.png") no-repeat 0 0;
@@ -425,7 +426,11 @@ nav li a {
     margin: 10px 0;
     width: 100%;
 }
-
+.contact #main h2{
+    position: absolute;
+    left: 190px;
+    top: -90px;
+}
 #contactForm{
     width: 955px;
     border: 1px solid #aaa;
@@ -434,17 +439,27 @@ nav li a {
     padding: 20px;
     position: relative;
     text-align: left;
+    font-size: 17px;
+    -webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent),
+      color-stop(0.5, transparent),
+      to(rgba(255, 255, 255, 0.5)));
 }
 
 #contactForm label, #contactForm input, #contactForm textarea{
     width: 250px;
     display: block;
     text-align: left;
+    font-size: 17px;
 }
 #contactForm input, #contactForm textarea{
     border-radius: 4px;
     border: 1px solid #8F7D4F;
     background: #C6B68E;
+    height: 30px;
+    color: #000;
+}
+#contactForm textarea{
+    height: 200px;
 }
 #contactForm #formTop{
     width: 100%;
@@ -477,11 +492,37 @@ nav li a {
 }
 #formBottom label{
     display: inline;
+    font-family: 'Yesteryear', cursive;
+    font-size: 32px;
 }
 #contactForm #sendMailBtn{
+    position: absolute;
+    right: 140px;
+    top: 17px;
+    width: 200px;
+    height: 50px;
+    border-radius: 100px / 25px;
+    font-size: 35px;
+    background-image: -webkit-radial-gradient(center 15px, ellipse contain, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 45%, black 42%, black 100%);
+    background-image: -moz-radial-gradient(center 15px, ellipse contain, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 45%, black 42%, black 100%);
+    background-image: -o-radial-gradient(center 15px, ellipse contain, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 45%, black 42%, black 100%);
+    background-image: -ms-radial-gradient(center 15px, ellipse contain, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 45%, black 42%, black 100%);
+    background-image: radial-gradient(center 15px, ellipse contain, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 45%, black 42%, black 100%); /* New WebKit syntax */
+    background-color: #000;
+    border: 2px solid #fff;
+    font-family: 'Yesteryear', cursive;
+    font-size: 32px;
 
 }
-
+#contactForm #sendMailBtn:hover{
+    -webkit-box-shadow: 0 0 15px #178f8e;
+    -moz-box-shadow: 0 0 15px #178f8e;
+    box-shadow: 0 0 15px #178f8e;
+}
+#contactForm p{
+    color: #000;
+    text-shadow: 0 0 5px #AE985F, 0 0 10px #AE985F;
+}
 
 
 /*FOOTER*/
