@@ -395,11 +395,20 @@ nav li a {
     text-align: center;
     padding: 0 25px;
 }
-
+#lineTop, #lineBottom{
+    background: url("../imgs/line_sprite.png") no-repeat 0 0;
+    height: 35px;
+    width: 558px;
+    margin-bottom: -20px;
+}
+#lineBottom{
+    background-position: 0 -40px;
+}
 #main h2, #main h3 {
     font-family: 'Yesteryear', cursive;
     font-size: 38px;
     text-shadow: 0 0 10px #000, 0 0 20px #000;
+    margin: 10px auto;
 }
 
 #main h3 {
