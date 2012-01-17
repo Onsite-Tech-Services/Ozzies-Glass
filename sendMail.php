@@ -11,9 +11,11 @@ if(isset($_POST)){
 
     array_walk_recursive($_POST, create_function('&$val', '$val = stripslashes(trim($val));'));
     $name = $_POST['name'];
-    $emailAddress = $_POST['emailAddress'];
+    $email = $_POST['email'];
     $phone = $_POST['phone'];
     $message = $_POST['message'];
+    $businessName = $_POST['businessName'];
+    $priceListRequest = $_POST['priceListRequest'];
 
     if(empty($name)){
         $formOk = false;
@@ -32,19 +34,22 @@ if(isset($_POST)){
 
     if($formOk){
         try {
-            $email = new PHPMailer(true);
-            $email->AddAddress('physicsmazz@gmail.com', 'MAZZ');
-            $email->Subject = "Email from mazzwebdesign.com";
-            $email->From = 'donotreply@mazzwebdesign.com';
-            $email->FromName = "Mazzantini Webdesign";
+            $mail = new PHPMailer(true);
+            $mail->AddAddress('physicsmazz@gmail.com', 'MAZZ');
+            $mail->Subject = "Email from mazzwebdesign.com";
+            $mail->From = 'donotreply@mazzwebdesign.com';
+            $mail->FromName = "Mazzantini Webdesign";
 
             $emailBody = "From: {$name}<br>";
-            $emailBody .= "Email: {$emailAddress}<br>";
+            $emailBody .= "Email: {$email}<br>";
+            $emailBody .= "Phone: {$phone}<br>";
+            $emailBody .= "Business Name: {$businessName}<br>";
             $emailBody .= "Message: {$message}<br>";
+            $emailBody .= "Price List Request: {$priceListRequest}<br>";
 
-            $email->MsgHTML($emailBody);
-            $email->Send();
-            echo ("Your message was sent.");
+            $mail->MsgHTML($emailBody);
+            $mail->Send();
+            header("location: thankyou.php");
         } catch (Exception $e) {
             echo ($e->getMessage());
         }

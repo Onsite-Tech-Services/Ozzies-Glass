@@ -35,7 +35,7 @@ require_once 'includes/config.inc.php';
     <div id="main" role="main">
         <h2>Please fill out the form below</h2>
 
-        <form id="contactForm" action="sendMail.php">
+        <form id="contactForm" action="sendMail.php" method="post">
             <div id="formTop">
                 <div id="topLeft">
                     <label for="name">Name</label>
