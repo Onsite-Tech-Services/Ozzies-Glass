@@ -3,9 +3,9 @@
     <span id="phone">413.822.4830</span>
     <nav>
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li class="active"><a href="products.php">Products</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
+            <li <?php if($page=='home') echo 'class="active"'; ?>><a href="index.php">Home</a></li>
+            <li <?php if($page=='products') echo 'class="active"'; ?>><a href="products.php">Products</a></li>
+            <li <?php if($page=='contact') echo 'class="active"'; ?>><a href="contact.php">Contact Us</a></li>
         </ul>
     </nav>
 </header>
