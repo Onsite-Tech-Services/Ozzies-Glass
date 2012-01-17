@@ -15,7 +15,7 @@ require_once 'includes/config.inc.php';
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
-<!--    <link rel="apple-touch-icon" href="apple-touch-icon.png">-->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
     <script src="js/libs/modernizr-2.0.6.min.js"></script>
