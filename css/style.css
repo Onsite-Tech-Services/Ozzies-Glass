@@ -448,8 +448,10 @@ nav li a {
 }
 #main .categoryLink{
     text-decoration: none;
+    width: 205px;
+    height: 421px;
 }
-#main .categoryLink:hover{
+#main .category:hover{
     box-shadow: 1px 1px 10px #00FFFF,1px -1px 10px #00FFFF,-1px 1px 10px #00FFFF,-1px -1px 10px #00FFFF;
 }
 #main .category p{
