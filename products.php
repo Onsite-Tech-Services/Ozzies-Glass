@@ -15,7 +15,7 @@ require_once 'includes/config.inc.php';
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
-<!--    <link rel="apple-touch-icon" href="apple-touch-icon.png">-->
+    <!--    <link rel="apple-touch-icon" href="apple-touch-icon.png">-->
     <link rel="stylesheet" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
     <script src="js/libs/modernizr-2.0.6.min.js"></script>
@@ -28,56 +28,103 @@ require_once 'includes/config.inc.php';
 <div id="container" class="products">
 
     <?php
-        $page = 'products';
-        require_once 'includes/header.inc.php';
+    $page = 'products';
+    require_once 'includes/header.inc.php';
     ?>
 
     <div id="main" role="main">
-        <h2>Thank you for visiting OzziesGlass.com</h2>
-        <div id="lineTop"></div>
-        <p>
-            Ozzie's Glass is focused on producing only the highest quality in blown glass. Established in 1997,
-            Ozzie's Glass is leading the way and raising the bar in the art of glass. Our promise is to keep our
-            standards as high as your expectations. Products do not leave our studio until all pieces have been
-            overseen by our quality department.
-        </p>
+        <h2>Select a category below to view product images.</h2>
+        <a class="categoryLink" href="">
+            <div class="category">
+                <img src="imgs/category_spoons.png" alt="Spoons">
 
-        <p>
-            With the knowledge and years of experience you can only expect to get the quality of glass that you deserve.
-            Whether you are a retailer, or a consumer looking for that quality piece(s). Look no further, Ozzie's Glass
-            is where quality meets affordability.
-        </p>
+                <h3>Spoons</h3>
 
-        <p>
-            Look through our product line by clicking the product button above. If you are a retailer, you can also request
-            a wholesale price list by <a id="wholesaleRequest" href="contact.php">clicking here</a> and filling out the request form.
-        </p>
+                <p>Glassblowing is a glassforming technique that involves inflating molten glass into a bubble, or
+                    parison,
+                    with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
+                    glassmith, or gaffer
+                    Today there are many different institutions around the world that offer glassmaking resources.</p>
+            </div>
+        </a>
+        <a class="categoryLink" href="">
+            <div class="category">
+                <img src="imgs/category_bubbler.png" alt="">
 
-        <div id="lineBottom"></div>
-        <h3>Creativity is our passion, quality is our standard.</h3>
+                <h3>Bubblers</h3>
+
+                <p>Glassblowing is a glassforming technique that involves inflating molten glass into a bubble, or
+                    parison,
+                    with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
+                    glassmith, or gaffer
+                    Today there are many different institutions around the world that offer glassmaking resources.</p>
+            </div>
+        </a>
+        <a class="categoryLink" href="">
+            <div class="category">
+                <img src="imgs/category_dry.png" alt="">
+
+                <h3>Dry</h3>
+
+                <p>Glassblowing is a glassforming technique that involves inflating molten glass into a bubble, or
+                    parison,
+                    with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
+                    glassmith, or gaffer
+                    Today there are many different institutions around the world that offer glassmaking resources.</p>
+            </div>
+        </a>
+        <a class="categoryLink" href="">
+            <div class="category">
+                <img src="imgs/category_animal.png" alt="">
+
+                <h3>Glass Animals</h3>
+
+                <p>Glassblowing is a glassforming technique that involves inflating molten glass into a bubble, or
+                    parison,
+                    with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
+                    glassmith, or gaffer
+                    Today there are many different institutions around the world that offer glassmaking resources.</p>
+            </div>
+        </a>
+        <a class="categoryLink" href="">
+            <div class="category">
+                <img src="imgs/category_assorted.png" alt="">
+
+                <h3>Assorted</h3>
+
+                <p>Glassblowing is a glassforming technique that involves inflating molten glass into a bubble, or
+                    parison,
+                    with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
+                    glassmith, or gaffer
+                    Today there are many different institutions around the world that offer glassmaking resources.</p>
+            </div>
+        </a>
+        <h4>Thank you for visiting Ozzie's Glass.com</h4>
     </div>
-<?php
+    <?php
 
     require_once 'includes/footer.inc.php';
 
-$admin = false;
-$ui = false;
-require_once('includes/scripts.inc.php');
-?>
-<script defer src="js/plugins.js"></script>
-<script defer src="js/script.js"></script>
+    $admin = false;
+    $ui = false;
+    require_once('includes/scripts.inc.php');
+    ?>
+    <script defer src="js/plugins.js"></script>
+    <script defer src="js/script.js"></script>
 
-<script> // Change UA-XXXXX-X to be your site's ID
-//  window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-//  Modernizr.load({
-//    load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-//  });
-</script>
+    <script> // Change UA-XXXXX-X to be your site's ID
+    //  window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    //  Modernizr.load({
+    //    load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    //  });
+    </script>
 
 
     <!--[if lt IE 8 ]>
-      <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-      <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload', function () {
+        CFInstall.check({mode:'overlay'})
+    })</script>
     <![endif]-->
 
 </body>

@@ -414,11 +414,84 @@ nav li a {
 
 #main h3 {
     font-size: 23px;
+    height: 28px;
 }
 
 #main p {
     text-shadow: 0 0 20px #000;
+    padding:;
 }
+
+
+
+
+/*products*/
+.products #main{
+    width: 100%;
+    margin: 0 auto;
+    height: 470px;
+}
+.category{
+    width: 205px;
+    height: 421px;
+    background: url("../imgs/category_bg.png");
+    float: left;
+    margin: 5px 15px;
+    position: relative;
+    border: 2px solid #464646;
+}
+.category img{
+    width: 174px;
+    height: 117px;
+    border: 1px solid #464646;
+    margin-top: 12px;
+}
+#main .categoryLink{
+    text-decoration: none;
+}
+#main .categoryLink:hover{
+    box-shadow: 1px 1px 10px #00FFFF,1px -1px 10px #00FFFF,-1px 1px 10px #00FFFF,-1px -1px 10px #00FFFF;
+}
+#main .category p{
+    width: 161px;
+    height: 243px;
+    background: url("../imgs/category_text_bg.png") no-repeat;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    color: #000;
+    padding: 5px;
+    line-height: 17px;
+    text-shadow: 0 0 10px #AE985F;
+}
+.products #main h2{
+    position: absolute;
+    left: 95px;
+    top: -75px;
+    font-size: 30px;
+}
+.products #main .category h3{
+    margin: 2px auto;
+    font-family: serif;
+    text-shadow: 1px 1px 4px #D8CCB1,
+                 1px -1px 4px #D8CCB1,
+                 -1px 1px 4px #D8CCB1,
+                 -1px -1px 4px #D8CCB1;
+    color: #645224;
+    line-height: 20px;
+}
+.products #main h4{
+    clear: left;
+}
+
+
+
+
+
+
+
+
+
 
 
 /*CONTACT*/
@@ -513,11 +586,16 @@ nav li a {
     font-family: 'Yesteryear', cursive;
     font-size: 32px;
 
+    box-shadow: 0 15px 25px #000;
 }
 #contactForm #sendMailBtn:hover{
     -webkit-box-shadow: 0 0 15px #178f8e;
     -moz-box-shadow: 0 0 15px #178f8e;
-    box-shadow: 0 0 15px #178f8e;
+    box-shadow: 0 0 15px #178f8e,
+                0 15px 25px #000;
+}
+#contactForm #sendMailBtn:active{
+    box-shadow: 0 10px 25px #000;
 }
 #contactForm p{
     color: #000;
