@@ -47,7 +47,7 @@ require_once 'includes/config.inc.php';
                     Today there are many different institutions around the world that offer glassmaking resources.</p>
             </div>
         </a>
-        <a class="categoryLink" href="">
+        <a class="categoryLink" href="bubblers.php">
             <div class="category">
                 <img src="imgs/category_bubbler.png" alt="">
 
@@ -60,7 +60,7 @@ require_once 'includes/config.inc.php';
                     Today there are many different institutions around the world that offer glassmaking resources.</p>
             </div>
         </a>
-        <a class="categoryLink" href="">
+        <a class="categoryLink" href="dry.php">
             <div class="category">
                 <img src="imgs/category_dry.png" alt="">
 
@@ -73,7 +73,7 @@ require_once 'includes/config.inc.php';
                     Today there are many different institutions around the world that offer glassmaking resources.</p>
             </div>
         </a>
-        <a class="categoryLink" href="">
+        <a class="categoryLink" href="animals.php">
             <div class="category">
                 <img src="imgs/category_animal.png" alt="">
 
@@ -86,7 +86,7 @@ require_once 'includes/config.inc.php';
                     Today there are many different institutions around the world that offer glassmaking resources.</p>
             </div>
         </a>
-        <a class="categoryLink" href="">
+        <a class="categoryLink" href="misc.php">
             <div class="category">
                 <img src="imgs/category_assorted.png" alt="">
 
