@@ -10,7 +10,7 @@ require_once 'includes/config.inc.php';
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Ozzie's Glass</title>
+    <title>Ozzie's Glass - Products</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,7 @@ require_once 'includes/config.inc.php';
     <script src="js/libs/modernizr-2.0.6.min.js"></script>
 
 </head>
-<body>
+<body class="fade">
 <div id="noJs">
     You must have JavaScript installed.
 </div>
@@ -34,7 +34,7 @@ require_once 'includes/config.inc.php';
 
     <div id="main" role="main">
         <h2>Select a category below to view product images.</h2>
-        <a class="categoryLink" href="">
+        <a class="categoryLink" href="spoons.php">
             <div class="category">
                 <img src="imgs/category_spoons.png" alt="Spoons">
 

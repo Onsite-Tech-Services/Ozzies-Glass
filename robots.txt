@@ -4,6 +4,5 @@ Disallow: /classes/
 Disallow: /js/
 Disallow: /admin/
 Disallow: /sendEmail.php
-Disallow: /sendMeasure.php
 
 
