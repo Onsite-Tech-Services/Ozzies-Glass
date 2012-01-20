@@ -26,9 +26,9 @@ if(isset($_POST)){
     }elseif(!filter_var($emailAddress, FILTER_VALIDATE_EMAIL)){
         $formOk = false;
         $errors[] = 'You have not entered a valid email address';
-    }elseif(strlen($message < 10)){
+    }elseif(strlen($message) < 5){
         $formOk = false;
-        $errors[] = 'Your message must be greater than 10 characters';
+        $errors[] = 'Your message must be greater than 5 characters';
     }
 
 
@@ -36,9 +36,9 @@ if(isset($_POST)){
         try {
             $mail = new PHPMailer(true);
             $mail->AddAddress('physicsmazz@gmail.com', 'MAZZ');
-            $mail->Subject = "Email from mazzwebdesign.com";
-            $mail->From = 'donotreply@mazzwebdesign.com';
-            $mail->FromName = "Mazzantini Webdesign";
+            $mail->Subject = "Email from ozziesglass.com";
+            $mail->From = 'donotreply@ozziesglass.com';
+            $mail->FromName = "Ozzie's Glass";
 
             $emailBody = "From: {$name}<br>";
             $emailBody .= "Email: {$email}<br>";
