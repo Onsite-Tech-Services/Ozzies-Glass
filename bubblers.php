@@ -59,14 +59,9 @@ require_once 'includes/config.inc.php';
 							</div>
 							<div class="es-carousel">
 								<ul>
-									<li><a href="#"><img src="imgs/thumbs/1.jpg" data-large="imgs/1.jpg" alt="image01" data-description="From off a hill whose concave womb reworded" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/2.jpg" data-large="imgs/2.jpg" alt="image02" data-description="A plaintful story from a sistering vale" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/3.jpg" data-large="imgs/3.jpg" alt="image03" data-description="A plaintful story from a sistering vale" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/4.jpg" data-large="imgs/4.jpg" alt="image04" data-description="My spirits to attend this double voice accorded" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/5.jpg" data-large="imgs/5.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/6.jpg" data-large="imgs/6.jpg" alt="image06" data-description="Ere long espied a fickle maid full pale" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/7.jpg" data-large="imgs/7.jpg" alt="image07" data-description="Tearing of papers, breaking rings a-twain" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/8.jpg" data-large="imgs/8.jpg" alt="image08" data-description="Storming her world with sorrow's wind and rain" /></a></li>
+<!--                                    put images here-->
+
+
 								</ul>
 							</div>
 						</div>

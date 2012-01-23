@@ -66,7 +66,7 @@ $(function() {
 			init			= function() {
 				
 				// (not necessary) preloading the images here...
-				$items.add('<img src="images/ajax-loader.gif"/><img src="images/black.png"/>').imagesLoaded( function() {
+				$items.add('<img src="imgs/ajax-loader.gif"/><img src="imgs/black.png"/>').imagesLoaded( function() {
 					// add options
 					_addViewModes();
 					
@@ -88,7 +88,7 @@ $(function() {
 				// we are using the elastislide plugin:
 				// http://tympanus.net/codrops/2011/09/12/elastislide-responsive-carousel/
 				$esCarousel.show().elastislide({
-					imageW 	: 65,
+					imageW 	: 85,
 					onClick	: function( $item ) {
 						if( anim ) return false;
 						anim	= true;

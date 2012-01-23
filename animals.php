@@ -59,14 +59,19 @@ require_once 'includes/config.inc.php';
 							</div>
 							<div class="es-carousel">
 								<ul>
-									<li><a href="#"><img src="imgs/thumbs/1.jpg" data-large="imgs/1.jpg" alt="image01" data-description="From off a hill whose concave womb reworded" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/2.jpg" data-large="imgs/2.jpg" alt="image02" data-description="A plaintful story from a sistering vale" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/19.jpg" data-large="imgs/19.jpg" alt="image19" data-description="That season'd woe had pelleted in tears" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/20.jpg" data-large="imgs/20.jpg" alt="image20" data-description="And often reading what contents it bears" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/21.jpg" data-large="imgs/21.jpg" alt="image21" data-description="As often shrieking undistinguish'd woe" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/22.jpg" data-large="imgs/22.jpg" alt="image22" data-description="In clamours of all size, both high and low" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/23.jpg" data-large="imgs/23.jpg" alt="image23" data-description="Sometimes her levell'd eyes their carriage ride" /></a></li>
-									<li><a href="#"><img src="imgs/thumbs/24.jpg" data-large="imgs/24.jpg" alt="image24" data-description="As they did battery to the spheres intend" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/01.jpg" data-large="imgs/animals/01.jpg" alt="image01" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/02.jpg" data-large="imgs/animals/02.jpg" alt="image02" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/03.jpg" data-large="imgs/animals/03.jpg" alt="image03" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/04.jpg" data-large="imgs/animals/04.jpg" alt="image04" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/05.jpg" data-large="imgs/animals/05.jpg" alt="image05" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/06.jpg" data-large="imgs/animals/06.jpg" alt="image06" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/07.jpg" data-large="imgs/animals/07.jpg" alt="image07" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/08.jpg" data-large="imgs/animals/08.jpg" alt="image08" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/09.jpg" data-large="imgs/animals/09.jpg" alt="image09" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/10.jpg" data-large="imgs/animals/10.jpg" alt="image10" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/11.jpg" data-large="imgs/animals/11.jpg" alt="image11" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/12.jpg" data-large="imgs/animals/12.jpg" alt="image12" data-description="" /></a></li>
+									<li><a href="#"><img src="imgs/animals/tn/13.jpg" data-large="imgs/animals/13.jpg" alt="image13" data-description="" /></a></li>
 								</ul>
 							</div>
 						</div>
