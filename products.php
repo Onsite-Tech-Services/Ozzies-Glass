@@ -99,8 +99,8 @@ require_once 'includes/config.inc.php';
                     Today there are many different institutions around the world that offer glassmaking resources.</p>
             </div>
         </a>
-        <h4>Thank you for visiting Ozzie's Glass.com</h4>
     </div>
+    <h4>Thank you for visiting Ozzie's Glass.com</h4>
     <?php
 
     require_once 'includes/footer.inc.php';

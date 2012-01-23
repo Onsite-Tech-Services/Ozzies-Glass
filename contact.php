@@ -39,17 +39,17 @@ require_once 'includes/config.inc.php';
             <div id="formTop">
                 <div id="topLeft">
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name">
+                    <input required="required" type="text" name="name" id="name">
                     <label for="phone">Phone #</label>
                     <input type="text" name="phone" id="phone">
                     <label for="email">Email Address</label>
-                    <input type="text" name="email" id="email">
+                    <input required="required" type="text" name="email" id="email">
                     <label for="businessName">Business Name</label>
                     <input type="text" name="businessName" id="businessName">
                 </div>
                 <div id="topMiddle">
                     <label for="message">Questions/Comments</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <textarea required="required" name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
                 <div id="topRight">
                     <h3>Thank you for contacting Ozzie's Glass.com</h3>
