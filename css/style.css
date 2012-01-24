@@ -426,6 +426,7 @@ nav li a {
     margin: 0 auto;
     height: 435px;
     -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(rgba(255, 255, 255, 0.5)));
+    text-shadow: 0 0 10px #000;
 }
 .products h4{
     text-align: center;

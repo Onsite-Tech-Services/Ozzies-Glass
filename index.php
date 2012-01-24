@@ -33,13 +33,13 @@ require_once 'includes/config.inc.php';
     ?>
 
     <div id="main" role="main">
-        <h2>Thank you for visiting OzziesGlass.com</h2>
+        <h2>Thank you for visiting Ozzie's Glass.com</h2>
         <div id="lineTop"></div>
         <p>
             Ozzie's Glass is focused on producing only the highest quality in blown glass. Established in 1997,
             Ozzie's Glass is leading the way and raising the bar in the art of glass. Our promise is to keep our
             standards as high as your expectations. Products do not leave our studio until all pieces have been
-            overseen by our quality department.
+            hand inspected.
         </p>
 
         <p>

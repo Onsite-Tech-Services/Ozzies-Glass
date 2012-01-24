@@ -66,7 +66,6 @@ require_once 'includes/config.inc.php';
 									<li><a href="#"><img src="imgs/dry/tn/05.jpg" data-large="imgs/dry/05.jpg" alt="image05" data-description="" /></a></li>
 									<li><a href="#"><img src="imgs/dry/tn/06.jpg" data-large="imgs/dry/06.jpg" alt="image06" data-description="" /></a></li>
 									<li><a href="#"><img src="imgs/dry/tn/07.jpg" data-large="imgs/dry/07.jpg" alt="image07" data-description="" /></a></li>
-									<li><a href="#"><img src="imgs/dry/tn/12.jpg" data-large="imgs/dry/12.jpg" alt="image12" data-description="" /></a></li>
 									<li><a href="#"><img src="imgs/dry/tn/13.jpg" data-large="imgs/dry/13.jpg" alt="image13" data-description="" /></a></li>
 									<li><a href="#"><img src="imgs/dry/tn/14.jpg" data-large="imgs/dry/14.jpg" alt="image14" data-description="" /></a></li>
 								</ul>

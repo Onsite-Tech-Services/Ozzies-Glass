@@ -59,9 +59,7 @@ require_once 'includes/config.inc.php';
 							</div>
 							<div class="es-carousel">
 								<ul>
-<!--                                    put images here-->
-
-
+                                    <li><a href="#"><img src="imgs/bubblers/tn/12.jpg" data-large="imgs/bubblers/12.jpg" alt="image12" data-description="" /></a></li>
 								</ul>
 							</div>
 						</div>
