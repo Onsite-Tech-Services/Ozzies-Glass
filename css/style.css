@@ -469,17 +469,38 @@ nav li a {
     box-shadow: 1px 1px 10px #00FFFF, 1px -1px 10px #00FFFF, -1px 1px 10px #00FFFF, -1px -1px 10px #00FFFF;
 }
 
-#main .category p {
+#main .category .categoryText{
     width: 161px;
     height: 243px;
     background: url("../imgs/category_text_bg.png") no-repeat;
     position: relative;
-    bottom: 20px;
+    margin-top: 20px;
     left: 17px;
     color: #000;
     padding: 5px;
     line-height: 17px;
     text-shadow: 0 0 10px #AE985F;
+    overflow: hidden;
+}
+#main .category .categoryText .ir{
+    height: 37px;
+    margin: 2px auto;
+    background-position: 50% 0;
+}
+#spoons.ir{
+    background: url("../imgs/spoons.png") no-repeat;
+}
+#dry.ir{
+    background: url("../imgs/dry.png") no-repeat;
+}
+#animals.ir{
+    background: url("../imgs/glass_animals.png") no-repeat;
+}
+#bubblers.ir{
+    background: url("../imgs/bubblers.png") no-repeat;
+}
+#assorted.ir{
+    background: url("../imgs/assorted.png") no-repeat;
 }
 
 .products #main h2 {

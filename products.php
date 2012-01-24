@@ -37,66 +37,70 @@ require_once 'includes/config.inc.php';
         <a class="categoryLink" href="spoons.php">
             <div class="category">
                 <img src="imgs/category_spoons.png" alt="Spoons">
-
-                <h3>Spoons</h3>
-
-                <p>Glassblowing is a glassforming technique that involves inflating molten glass into a bubble, or
-                    parison,
-                    with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
-                    glassmith, or gaffer
-                    Today there are many different institutions around the world that offer glassmaking resources.</p>
+                <div class="categoryText">
+                    <h3 id="spoons" class="ir">Spoons</h3>
+                    Glassblowing is a glassforming technique that involves inflating molten glass into a bubble,
+                    or parison, with the aid of a blowpipe, or blow tube. A person who blows glass is called a
+                    glassblower,
+                    glassmith, or gaffer. Today there are many different institutions around the world that offer
+                    glassmaking resources.
+                </div>
             </div>
         </a>
         <a class="categoryLink" href="bubblers.php">
             <div class="category">
                 <img src="imgs/category_bubbler.png" alt="">
-
-                <h3>Bubblers</h3>
-
-                <p>Glassblowing is a glassforming technique that involves inflating molten glass into a bubble, or
+                <div class="categoryText">
+                    <h3 id="bubblers" class="ir">Bubblers</h3>
+                    Glassblowing is a glassforming technique that involves inflating molten glass
+                    into a bubble, or
                     parison,
                     with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
                     glassmith, or gaffer
-                    Today there are many different institutions around the world that offer glassmaking resources.</p>
+                    Today there are many different institutions around the world that offer glassmaking resources.
+                </div>
             </div>
         </a>
         <a class="categoryLink" href="dry.php">
             <div class="category">
                 <img src="imgs/category_dry.png" alt="">
-
-                <h3>Dry</h3>
-
-                <p>Glassblowing is a glassforming technique that involves inflating molten glass into a bubble, or
+                <div class="categoryText">
+                    <h3 id="dry" class="ir">Dry</h3>
+                    Glassblowing is a glassforming technique that involves inflating molten glass
+                    into a bubble, or
                     parison,
                     with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
                     glassmith, or gaffer
-                    Today there are many different institutions around the world that offer glassmaking resources.</p>
+                    Today there are many different institutions around the world that offer glassmaking resources.
+                </div>
             </div>
         </a>
         <a class="categoryLink" href="animals.php">
             <div class="category">
                 <img src="imgs/category_animal.png" alt="">
-
-                <h3>Glass Animals</h3>
-
-                <p>Glassblowing is a glassforming technique that involves inflating molten glass into a bubble, or
+                <div class="categoryText">
+                    <h3 id="animals" class="ir">Glass Animals</h3>
+                    Glassblowing is a glassforming technique that involves inflating molten glass
+                    into a bubble, or
                     parison,
                     with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
                     glassmith, or gaffer
-                    Today there are many different institutions around the world that offer glassmaking resources.</p>
+                    Today there are many different institutions around the world that offer glassmaking resources.
+                </div>
             </div>
         </a>
         <a class="categoryLink" href="misc.php">
             <div class="category">
                 <img src="imgs/category_assorted.png" alt="">
-
-                <h3>Assorted</h3>
-
-                <p>Glassblowing is a glassforming technique that involves inflating molten glass into a bubble, or
+                <div class="categoryText">
+                    <h3 id="assorted" class="ir">Assorted</h3>
+                    Glassblowing is a glassforming technique that involves inflating molten glass
+                    into a bubble, or
                     parison,
                     with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
                     glassmith, or gaffer
-                    Today there are many different institutions around the world that offer glassmaking resources.</p>
+                    Today there are many different institutions around the world that offer glassmaking resources.
+                </div>
             </div>
         </a>
     </div>
