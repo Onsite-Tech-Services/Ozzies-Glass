@@ -66,7 +66,7 @@ require_once('includes/scripts.inc.php');
 ?>
 <script defer src="js/plugins.js"></script>
 <script defer src="js/script.js"></script>
-    <?php include_once 'includes/analytics.inc.php'; ?>
+<?php include_once 'includes/analytics.inc.php'; ?>
     <!--[if lt IE 8 ]>
       <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
       <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
