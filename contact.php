@@ -56,11 +56,10 @@ require_once 'includes/config.inc.php';
 
                     <p>
                         Please contact us if you have any questions or comments.
-                        If you have requested a pricing list, please fill out the form accordingly to assure
-                        the process of getting that information to you.
+                        If you have requested a pricing list, please fill out the form accordingly.
                         We will contact you once we have received your request.
-                        We verify all businesses before a wholesale list is processed.
-                        Thank you for visiting, and contacting Ozzie's Glass.com. We look to talking with you.
+                        
+                        Thank you for visiting, and contacting Ozzie's Glass.com. We look forward to talking with you.
                     </p>
                 </div>
             </div>
