@@ -39,11 +39,8 @@ require_once 'includes/config.inc.php';
                 <img src="imgs/category_spoons.png" alt="Spoons">
                 <div class="categoryText">
                     <h3 id="spoons" class="ir">Spoons</h3>
-                    Glassblowing is a glassforming technique that involves inflating molten glass into a bubble,
-                    or parison, with the aid of a blowpipe, or blow tube. A person who blows glass is called a
-                    glassblower,
-                    glassmith, or gaffer. Today there are many different institutions around the world that offer
-                    glassmaking resources.
+                    Spoons
+                    Mouth and rush holes are good sized, deep bowls and thick as hell
                 </div>
             </div>
         </a>
@@ -52,12 +49,8 @@ require_once 'includes/config.inc.php';
                 <img src="imgs/category_bubbler.png" alt="">
                 <div class="categoryText">
                     <h3 id="bubblers" class="ir">Bubblers</h3>
-                    Glassblowing is a glassforming technique that involves inflating molten glass
-                    into a bubble, or
-                    parison,
-                    with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
-                    glassmith, or gaffer
-                    Today there are many different institutions around the world that offer glassmaking resources.
+                    Bubblers
+                    Thick, stable/well standing deep bowl, large diameter down stem
                 </div>
             </div>
         </a>
@@ -66,12 +59,9 @@ require_once 'includes/config.inc.php';
                 <img src="imgs/category_dry.png" alt="">
                 <div class="categoryText">
                     <h3 id="dry" class="ir">Dry</h3>
-                    Glassblowing is a glassforming technique that involves inflating molten glass
-                    into a bubble, or
-                    parison,
-                    with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
-                    glassmith, or gaffer
-                    Today there are many different institutions around the world that offer glassmaking resources.
+                    Dry pieces
+                    Onies and steamrollers
+                    Same as water pips just no down stem and a little smaller.
                 </div>
             </div>
         </a>
@@ -80,12 +70,8 @@ require_once 'includes/config.inc.php';
                 <img src="imgs/category_animal.png" alt="">
                 <div class="categoryText">
                     <h3 id="animals" class="ir">Glass Animals</h3>
-                    Glassblowing is a glassforming technique that involves inflating molten glass
-                    into a bubble, or
-                    parison,
-                    with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
-                    glassmith, or gaffer
-                    Today there are many different institutions around the world that offer glassmaking resources.
+                    Glass animals
+                    Animated, fun, user friendly. 
                 </div>
             </div>
         </a>
@@ -94,12 +80,9 @@ require_once 'includes/config.inc.php';
                 <img src="imgs/category_assorted.png" alt="">
                 <div class="categoryText">
                     <h3 id="assorted" class="ir">Assorted</h3>
-                    Glassblowing is a glassforming technique that involves inflating molten glass
-                    into a bubble, or
-                    parison,
-                    with the aid of a blowpipe, or blow tube. A person who blows glass is called a glassblower,
-                    glassmith, or gaffer
-                    Today there are many different institutions around the world that offer glassmaking resources.
+                    Jars and stems
+                    Thick, cork fits tightly in every jar. chillums/onie are fumed 2-4"s
+                    With purchace orders over 1000$'s you will get 10 onies FREE  
                 </div>
             </div>
         </a>
